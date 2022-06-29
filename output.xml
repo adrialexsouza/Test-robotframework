@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.7.4 on win32)" generated="20220628 21:57:42.437" rpa="false" schemaversion="3">
+<suite id="s1" name="Amaz Testes" source="C:\AulaRobot\robotRob\RobotTesting\amaz_testes.robot">
+<test id="s1-t1" name="Caso de Teste 01 - acesso ao menu &quot;Livros&quot;" line="9">
+<status status="FAIL" starttime="20220628 21:57:42.974" endtime="20220628 21:57:42.977">Test contains no keywords.</status>
+</test>
+<test id="s1-t2" name="[Documentation]" line="10">
+<kw name="abrir o navegador" library="amaz_resources" type="SETUP">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>browser=chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220628 21:57:42.982" level="INFO">Opening browser 'chrome' to base url 'None'.</msg>
+<msg timestamp="20220628 21:57:47.897" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg timestamp="20220628 21:57:47.899" level="FAIL">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 104
+Current browser version is 102.0.5005.115 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x007DAF23+2207523]
+	Ordinal0 [0x007730E1+1781985]
+	Ordinal0 [0x00683FE8+802792]
+	Ordinal0 [0x006A5AD3+940755]
+	Ordinal0 [0x006A11EF+922095]
+	Ordinal0 [0x0069E9D1+911825]
+	Ordinal0 [0x006D2200+1122816]
+	Ordinal0 [0x006D1E5A+1121882]
+	Ordinal0 [0x006CD406+1102854]
+	Ordinal0 [0x006A75F0+947696]
+	Ordinal0 [0x006A84E6+951526]
+	GetHandleVerifier [0x00A82A12+2733954]
+	GetHandleVerifier [0x00A74E28+2677656]
+	GetHandleVerifier [0x008646EA+513114]
+	GetHandleVerifier [0x00863796+509190]
+	Ordinal0 [0x00779CEB+1809643]
+	Ordinal0 [0x0077E448+1827912]
+	Ordinal0 [0x0077E535+1828149]
+	Ordinal0 [0x00787960+1866080]
+	BaseThreadInitThunk [0x76AFFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77DD7A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77DD7A6E+238]
+</msg>
+<status status="FAIL" starttime="20220628 21:57:42.982" endtime="20220628 21:57:47.930"/>
+</kw>
+<status status="FAIL" starttime="20220628 21:57:42.981" endtime="20220628 21:57:47.932"/>
+</kw>
+<status status="FAIL" starttime="20220628 21:57:42.980" endtime="20220628 21:57:47.935">Setup failed:
+SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 104
+Current browser version is 102.0.5005.115 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x007DAF23+2207523]
+	Ordinal0 [0x007730E1+1781985]
+	Ordinal0 [0x00683FE8+802792]
+	Ordinal0 [0x006A5AD3+940755]
+	Ordinal0 [0x006A11EF+922095]
+	Ordinal0 [0x0069E9D1+911825]
+	Ordinal0 [0x006D2200+1122816]
+	Ordinal0 [0x006D1E5A+1121882]
+	Ordinal0 [0x006CD406+1102854]
+	Ordinal0 [0x006A75F0+947696]
+	Ordinal0 [0x006A84E6+951526]
+	GetHandleVerifier [0x00A82A12+2733954]
+	GetHandleVerifier [0x00A74E28+2677656]
+	GetHandleVerifier [0x008646EA+513114]
+	GetHandleVerifier [0x00863796+509190]
+	Ordinal0 [0x00779CEB+1809643]
+	Ordinal0 [0x0077E448+1827912]
+	Ordinal0 [0x0077E535+1828149]
+	Ordinal0 [0x00787960+1866080]
+	BaseThreadInitThunk [0x76AFFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77DD7A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77DD7A6E+238]
+</status>
+</test>
+<test id="s1-t3" name="[Tags]" line="12">
+<kw name="abrir o navegador" library="amaz_resources" type="SETUP">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>browser=chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220628 21:57:47.969" level="INFO">Opening browser 'chrome' to base url 'None'.</msg>
+<msg timestamp="20220628 21:57:52.944" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg timestamp="20220628 21:57:52.947" level="FAIL">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 104
+Current browser version is 102.0.5005.115 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x007DAF23+2207523]
+	Ordinal0 [0x007730E1+1781985]
+	Ordinal0 [0x00683FE8+802792]
+	Ordinal0 [0x006A5AD3+940755]
+	Ordinal0 [0x006A11EF+922095]
+	Ordinal0 [0x0069E9D1+911825]
+	Ordinal0 [0x006D2200+1122816]
+	Ordinal0 [0x006D1E5A+1121882]
+	Ordinal0 [0x006CD406+1102854]
+	Ordinal0 [0x006A75F0+947696]
+	Ordinal0 [0x006A84E6+951526]
+	GetHandleVerifier [0x00A82A12+2733954]
+	GetHandleVerifier [0x00A74E28+2677656]
+	GetHandleVerifier [0x008646EA+513114]
+	GetHandleVerifier [0x00863796+509190]
+	Ordinal0 [0x00779CEB+1809643]
+	Ordinal0 [0x0077E448+1827912]
+	Ordinal0 [0x0077E535+1828149]
+	Ordinal0 [0x00787960+1866080]
+	BaseThreadInitThunk [0x76AFFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77DD7A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77DD7A6E+238]
+</msg>
+<status status="FAIL" starttime="20220628 21:57:47.967" endtime="20220628 21:57:52.952"/>
+</kw>
+<status status="FAIL" starttime="20220628 21:57:47.965" endtime="20220628 21:57:52.955"/>
+</kw>
+<status status="FAIL" starttime="20220628 21:57:47.962" endtime="20220628 21:57:52.958">Setup failed:
+SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 104
+Current browser version is 102.0.5005.115 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x007DAF23+2207523]
+	Ordinal0 [0x007730E1+1781985]
+	Ordinal0 [0x00683FE8+802792]
+	Ordinal0 [0x006A5AD3+940755]
+	Ordinal0 [0x006A11EF+922095]
+	Ordinal0 [0x0069E9D1+911825]
+	Ordinal0 [0x006D2200+1122816]
+	Ordinal0 [0x006D1E5A+1121882]
+	Ordinal0 [0x006CD406+1102854]
+	Ordinal0 [0x006A75F0+947696]
+	Ordinal0 [0x006A84E6+951526]
+	GetHandleVerifier [0x00A82A12+2733954]
+	GetHandleVerifier [0x00A74E28+2677656]
+	GetHandleVerifier [0x008646EA+513114]
+	GetHandleVerifier [0x00863796+509190]
+	Ordinal0 [0x00779CEB+1809643]
+	Ordinal0 [0x0077E448+1827912]
+	Ordinal0 [0x0077E535+1828149]
+	Ordinal0 [0x00787960+1866080]
+	BaseThreadInitThunk [0x76AFFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77DD7A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77DD7A6E+238]
+</status>
+</test>
+<status status="FAIL" starttime="20220628 21:57:42.440" endtime="20220628 21:57:52.979"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="3" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="3" skip="0" id="s1" name="Amaz Testes">Amaz Testes</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20220628 21:57:42.421" level="ERROR">Error in file 'C:\AulaRobot\robotRob\RobotTesting\amaz_testes.robot' on line 2: Non-existing setting '[Documentation]'. Did you mean:
+    Documentation</msg>
+</errors>
+</robot>
